@@ -23,11 +23,15 @@ const handleSubmit = (e) => {
   const likingAssignmentResults = document.querySelector(
     '#results-did-like-assignment'
   );
+
+  // https://www.w3schools.com/howto/howto_js_display_checkbox_text.asp
   if (likingAssignmentValue) {
     likingAssignmentResults.textContent = 'Yes';
   } else {
     likingAssignmentResults.textContent = 'No';
   }
+
+  form.reset();
 };
 
 const submitButton = document.querySelector('#new-user-form');
