@@ -1,5 +1,6 @@
 /** GENERAL FEEDBACK:
- *
+ * Great job getting all test cases to pass!
+ * In the future, you should look into how you could use the FormData API! 
  */
 
 const handleSubmit = (e) => {
